@@ -1,9 +1,9 @@
 {
-  "name": "drawing-program",
+  "name": "credit-suisse-drawing-program",
   "version": "1.0.0",
   "description": "A simple drawing program (lines, rectangles, fill).",
   "main": "index.js",
-  "author": "Niko",
+  "author": "Dork",
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
