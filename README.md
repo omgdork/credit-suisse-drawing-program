@@ -2,7 +2,7 @@
 A simple drawing program that can create a canvas, draw horizontal or vertical lines, draw rectangles, and fill areas.
 
 ```
-Command 		    Description
+Command         Description
 C w h           Creates a new canvas of width w and height h.
 L x1 y1 x2 y2   Creates a new line from (x1, y1) to (x2, y2). Currently only
                 horizontal or vertical lines are supported. Horizontal and vertical lines
