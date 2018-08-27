@@ -1,0 +1,21 @@
+{
+  "name": "drawing-program",
+  "version": "1.0.0",
+  "description": "A simple drawing program (lines, rectangles, fill).",
+  "main": "index.js",
+  "author": "Niko",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --compilers js:babel-core/register \"./**/*.test.js*\""
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
