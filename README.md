@@ -16,6 +16,57 @@ B x y c         Fills the entire area connected to (x, y) with "colour" c. The
 Q               Quits the program.
 ```
 
+## Examples
+```
+Command: C 20 4
+----------------------
+|                    |
+|                    |
+|                    |
+|                    |
+----------------------
+```
+
+```
+Command: L 1 2 6 2
+----------------------
+|                    |
+|xxxxxx              |
+|                    |
+|                    |
+----------------------
+```
+
+```
+Command: L 6 3 6 4
+----------------------
+|                    |
+|xxxxxx              |
+|     x              |
+|     x              |
+----------------------
+```
+
+```
+Command: R 14 1 18 3
+----------------------
+|             xxxxx  |
+|xxxxxx       x   x  |
+|     x       xxxxx  |
+|     x              |
+----------------------
+```
+
+```
+Command: B 10 3 o
+----------------------
+|oooooooooooooxxxxxoo|
+|xxxxxxooooooox   xoo|
+|     xoooooooxxxxxoo|
+|     xoooooooooooooo|
+----------------------
+```
+
 ## Installation
 Run `npm install` or `yarn install`.
 
